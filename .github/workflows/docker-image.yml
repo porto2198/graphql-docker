@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t porto21/graphql-docker:0.0.2 .
+        docker build -t porto21/graphql-docker:0.0.2
 
     - name: Push Docker Image
       run: |
